@@ -11,10 +11,10 @@ const Banner = () => {
       <Container>
         <p className={s.text}>
           Sign up and get 20% off to your first order.
-          <Link to="/signup" className={s.link}>
+          <Link to="#" className={s.link}>
             Sign Up Now
           </Link>
-          <button class="close"><HiXMark /></button>
+          <button class={s.close} onClick={() => setIsOpen(false)}><HiXMark /></button>
         </p>
       </Container>
     </dialog>

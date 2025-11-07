@@ -22,4 +22,11 @@
     top: 50%;
     translate: 0 -50%;
     font-size: var(--size-4);
+    color: var(--color-white);
+    line-height: 1;
+    background: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
