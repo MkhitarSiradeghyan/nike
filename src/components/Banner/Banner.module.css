@@ -1,0 +1,32 @@
+.banner {
+    background: var(--color-black-0);
+    color: var(--color-white);
+    padding: 10px;
+    width: 100%;
+}
+.text {
+    font-size: var(--size-2);
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.link {
+    color: var(--color-white);
+    text-decoration: underline solid #fff 1px;
+    font-weight: 500;
+    padding: 0 5px;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: var(--size-4);
+    color: var(--color-white);
+    line-height: 1;
+    background: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
