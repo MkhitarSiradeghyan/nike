@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+}
+.container{
+   background-color:var(--color-black-0) ; 
+   width: 1240px;
+   height: 180px;
+   border-radius: var( --radius-5);
+}
+.tittle{
+    color: var(--color-white);
+    font-family: var(--font-2);
+    font-size: var(--size-8);
+}
+.input{
+    width: 350px;
+    height: 50px;
+    border-radius: var(--radius-full);
+    
+}
+.button{
+    width: 350px;
+    height: 50px;
+    border-radius: var(--radius-full);
+    background-color: var(--color-white);
+}

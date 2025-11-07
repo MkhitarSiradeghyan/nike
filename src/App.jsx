@@ -1,8 +1,9 @@
 import React from 'react'
+import Cta from './components/Cta/Cta'
 
 const App = () => {
   return (
-    <div>App</div>
+    <Cta></Cta>
   )
 }
 
