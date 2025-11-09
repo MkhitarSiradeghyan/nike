@@ -6,7 +6,8 @@ import { HiXMark } from "react-icons/hi2";
 
 const Banner = () => {
   const [isOpen, setIsOpen] = useState(true);
-  return (
+  
+  if(isOpen) return (
     <dialog className={s.banner} open={isOpen}>
       <Container>
         <p className={s.text}>
