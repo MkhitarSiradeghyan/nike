@@ -1,8 +1,14 @@
 import React from "react";
-import s from "./Layout.module.css";
+import Banner from "../Banner/Banner";
+import { Outlet } from "react-router";
 
-const Layout = ({ children }) => {
-  return <div>{children}</div>;
+const Layout = () => {
+  return (
+    <>
+      <Banner />
+      <Outlet />
+    </>
+  );
 };
 
 export default Layout;
