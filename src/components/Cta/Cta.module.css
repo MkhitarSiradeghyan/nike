@@ -1,0 +1,32 @@
+.body{
+    background-color: var(--color-black-0);
+    border-radius: var( --radius-5);
+    height: 180px;
+}
+.tittle{
+    color: var(--color-white);
+    margin: 20px;
+    position: fixed;
+    top: 30px;
+    font-family: var(--font-2);
+}
+.input{
+    width: 20%;
+    height: 50px;
+    position: fixed;
+    left: 55%;
+    top: 2%;
+    border-radius: var(--radius-full);
+}
+.button{
+    background-color: var(--color-white);
+    width: 20%;
+    height: 50px;
+    position: fixed;
+    left: 55%;
+    top: 10%;
+    border-radius: var(--radius-full);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
