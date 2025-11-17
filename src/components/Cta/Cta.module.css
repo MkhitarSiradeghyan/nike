@@ -17,6 +17,7 @@
     left: 55%;
     top: 2%;
     border-radius: var(--radius-full);
+    
 }
 .button{
     background-color: var(--color-white);
