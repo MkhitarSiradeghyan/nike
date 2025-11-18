@@ -8,7 +8,7 @@ const Cta = () => {
       <Container>
         <div className={s.body}>
         <h2 className={s.title}>Stay up to date abaut our latest offers</h2>
-        <input className={s.input} type="text" placeholder='Enter your email address' />
+        <input className={s.input} type="text" placeholder='&#128386;Enter your email address ' />
         <div className={s.button}>Subscribe to newsletter</div>
     </div>
     </Container>
@@ -19,17 +19,3 @@ const Cta = () => {
 }
 
 export default Cta;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
