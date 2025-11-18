@@ -15,7 +15,7 @@ const Banner = () => {
           <Link to="#" className={s.link}>
             Sign Up Now
           </Link>
-          <button class={s.close} onClick={() => setIsOpen(false)}><HiXMark /></button>
+          <button className={s.close} onClick={() => setIsOpen(false)}><HiXMark /></button>
         </p>
       </Container>
     </dialog>
