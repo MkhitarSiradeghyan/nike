@@ -3,12 +3,16 @@
     border-radius: var( --radius-5);
     height: 180px;
 }
-.tittle{
+.title{
     color: var(--color-white);
     margin: 20px;
     position: fixed;
     top: 30px;
     font-family: var(--font-2);
+    font-size:var(--size-9) ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
 }
 .input{
     width: 20%;

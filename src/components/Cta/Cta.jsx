@@ -7,8 +7,8 @@ const Cta = () => {
     <div className={s.cta}>
       <Container>
         <div className={s.body}>
-        <h2 className={s.title}>Stay up to date abut our latest offers</h2>
-        <input className={s.input} type="text" />
+        <h2 className={s.title}>Stay up to date abaut our latest offers</h2>
+        <input className={s.input} type="text" placeholder='Enter your email address' />
         <div className={s.button}>Subscribe to newsletter</div>
     </div>
     </Container>
