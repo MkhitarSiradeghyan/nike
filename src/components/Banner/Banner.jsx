@@ -8,7 +8,7 @@ const Banner = () => {
   const [isOpen, setIsOpen] = useState(true);
   
   if(isOpen) return (
-    <dialog className={s.banner} open={isOpen}>
+    <div className={s.banner}>
       <Container>
         <p className={s.text}>
           Sign up and get 20% off to your first order.
@@ -18,7 +18,7 @@ const Banner = () => {
           <button class={s.close} onClick={() => setIsOpen(false)}><HiXMark /></button>
         </p>
       </Container>
-    </dialog>
+    </div>
   );
 };
 
