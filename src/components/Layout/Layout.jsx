@@ -9,6 +9,7 @@ const Layout = () => {
       <Banner />
       <Hero/>
       <Outlet />
+      <Order/>
     </>
   );
 };
